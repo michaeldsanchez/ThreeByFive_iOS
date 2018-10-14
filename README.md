@@ -11,8 +11,6 @@ Tapping anywhere on the background will reset the multiple choice questions so t
 <img src="https://i.imgur.com/wUphOdL.gif" width=200>
 <img src="https://i.imgur.com/ctL6ZYN.gif" width=200>
 
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
-
 ## Required
 - [x] Create New Project in Xcode
 - [x] Add a view for the front side of the flashcard to display the question
