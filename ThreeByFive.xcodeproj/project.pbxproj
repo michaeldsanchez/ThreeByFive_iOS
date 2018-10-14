@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8C7D30C221728FA300467CC5 /* Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C7D30C221728FA300467CC5 /* ThreeByFive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreeByFive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C7D30C521728FA300467CC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8C7D30C721728FA300467CC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C7D30CA21728FA300467CC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		8C7D30B921728FA300467CC5 = {
 			isa = PBXGroup;
 			children = (
-				8C7D30C421728FA300467CC5 /* Flashcards */,
+				8C7D30C421728FA300467CC5 /* flashcards_iOS */,
 				8C7D30C321728FA300467CC5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		8C7D30C321728FA300467CC5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8C7D30C221728FA300467CC5 /* Flashcards.app */,
+				8C7D30C221728FA300467CC5 /* ThreeByFive.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8C7D30C421728FA300467CC5 /* Flashcards */ = {
+		8C7D30C421728FA300467CC5 /* flashcards_iOS */ = {
 			isa = PBXGroup;
 			children = (
 				8C7D30C521728FA300467CC5 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				8C7D30CE21728FA400467CC5 /* LaunchScreen.storyboard */,
 				8C7D30D121728FA400467CC5 /* Info.plist */,
 			);
-			path = Flashcards;
+			path = flashcards_iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8C7D30C121728FA300467CC5 /* Flashcards */ = {
+		8C7D30C121728FA300467CC5 /* ThreeByFive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8C7D30D421728FA400467CC5 /* Build configuration list for PBXNativeTarget "Flashcards" */;
+			buildConfigurationList = 8C7D30D421728FA400467CC5 /* Build configuration list for PBXNativeTarget "ThreeByFive" */;
 			buildPhases = (
 				8C7D30BE21728FA300467CC5 /* Sources */,
 				8C7D30BF21728FA300467CC5 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = Flashcards;
+			name = ThreeByFive;
 			productName = Flashcards;
-			productReference = 8C7D30C221728FA300467CC5 /* Flashcards.app */;
+			productReference = 8C7D30C221728FA300467CC5 /* ThreeByFive.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8C7D30BD21728FA300467CC5 /* Build configuration list for PBXProject "Flashcards" */;
+			buildConfigurationList = 8C7D30BD21728FA300467CC5 /* Build configuration list for PBXProject "ThreeByFive" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8C7D30C121728FA300467CC5 /* Flashcards */,
+				8C7D30C121728FA300467CC5 /* ThreeByFive */,
 			);
 		};
 /* End PBXProject section */
@@ -284,7 +284,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Y94KVSC5B;
-				INFOPLIST_FILE = Flashcards/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/flashcards_iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7Y94KVSC5B;
-				INFOPLIST_FILE = Flashcards/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/flashcards_iOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8C7D30BD21728FA300467CC5 /* Build configuration list for PBXProject "Flashcards" */ = {
+		8C7D30BD21728FA300467CC5 /* Build configuration list for PBXProject "ThreeByFive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C7D30D221728FA400467CC5 /* Debug */,
@@ -326,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8C7D30D421728FA400467CC5 /* Build configuration list for PBXNativeTarget "Flashcards" */ = {
+		8C7D30D421728FA400467CC5 /* Build configuration list for PBXNativeTarget "ThreeByFive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8C7D30D521728FA400467CC5 /* Debug */,

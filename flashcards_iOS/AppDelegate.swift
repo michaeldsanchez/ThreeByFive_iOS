@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Flashcards
+//  flashcards_iOS
 //
 //  Created by porcupal on 10/13/18.
 //  Copyright © 2018 porcupal. All rights reserved.
