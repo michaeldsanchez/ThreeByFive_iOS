@@ -1,5 +1,25 @@
 ## ThreeByFive
 
+## Lab 2
+
+### App Description
+Study effectively with ThreeByFive, an app that will let you create flashcards from material of your choosing. Multiple choice options will test your knowledge as you study and indicate when you've answered correctly. Take your study material everywhere you go with ThreeByFive for iOS! Now your existing flashcards may be edited and new cards may be created.
+
+### App Walk-though
+Create new flashcards by tapping the **+** icon on the bottom of the screen. A question, answer, and multiple choice options must be entered before hitting **done**! Edit this existing card by tapping on the pencil emoji in the lower right hand corner of the flashcard.
+
+<img src="" width=200> <img src="" width=200> <img src="" width=200>
+
+## Required
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
+## Optional
+- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can edit existing flashcard
+- [x] User can add multiple choice answers in the creation screen
+
 ### App Description
 Study effectively with ThreeByFive, an app that will let you create flashcards from material of your choosing. Multiple choice options will test your knowledge as you study and indicate when you've answered correctly. Take your study material everywhere you go with ThreeByFive for iOS!
 
