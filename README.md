@@ -8,7 +8,7 @@ Study effectively with ThreeByFive, an app that will let you create flashcards f
 ### App Walk-though
 Create new flashcards by tapping the **+** icon on the bottom of the screen. A question, answer, and multiple choice options must be entered before hitting **done**! Edit this existing card by tapping on the pencil emoji in the lower right hand corner of the flashcard.
 
-<img src="" width=200> <img src="" width=200> <img src="" width=200>
+<img src="https://i.imgur.com/ZObl4Xt.gif" width=200> <img src="https://i.imgur.com/t6XzvrM.gif" width=200>
 
 ## Required
 - [x] User can open the creation screen
