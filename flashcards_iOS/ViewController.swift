@@ -22,6 +22,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
         frontLabel.layer.cornerRadius = 20.0
         frontLabel.clipsToBounds = true
@@ -49,6 +50,14 @@ class ViewController: UIViewController {
     @IBAction func didTapOnFlashcard(_ sender: Any) {
         frontLabel.isHidden = (frontLabel.isHidden ? false: true)
     }
+    func updateFlashcard(question: String, answer: String, optOne: String, optTwo: String, optThree: String) {
+        frontLabel.text = question
+        backLabel.text = answer
+
+        btnOptionOne.setTitle(optOne, for: .normal)
+        btnOptionTwo.setTitle(optTwo, for: .normal)
+        btnOptionThree.setTitle(optThree, for: .normal)
+    }
     @IBAction func didTapOptionOne(_ sender: Any) {
         btnOptionOne.isHidden = true
     }
@@ -65,5 +74,21 @@ class ViewController: UIViewController {
         btnOptionThree.isHidden = false
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let navigationController = segue.destination as! UINavigationController
+        
+        let creationController = navigationController.topViewController as! CreationViewController
+        
+        creationController.flashcardsController = self
+        
+        // for the editing creation screen
+        if (segue.identifier == "EditSegue") {
+            creationController.initialQuestion = frontLabel.text
+            creationController.initialAnswer = backLabel.text
+            creationController.initialOptOne = btnOptionOne.title(for: .normal)
+            creationController.initialOptTwo = btnOptionTwo.title(for: .normal)
+            creationController.initialOptThree = btnOptionThree.title(for: .normal)
+        }
+    }
 }
 
