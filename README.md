@@ -1,22 +1,40 @@
 ## ThreeByFive
 
+## Lab 2
+
 ### App Description
-`TODO://` Add app description
+Study effectively with ThreeByFive, an app that will let you create flashcards from material of your choosing. Multiple choice options will test your knowledge as you study and indicate when you've answered correctly. Take your study material everywhere you go with ThreeByFive for iOS! Now your existing flashcards may be edited and new cards may be created.
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
+Create new flashcards by tapping the **+** icon on the bottom of the screen. A question, answer, and multiple choice options must be entered before hitting **done**! Edit this existing card by tapping on the pencil emoji in the lower right hand corner of the flashcard.
 
-<img src="YOUR_GIF_URL_HERE" width=200><br>
-
-`TODO://` In the User stories section below, add an `x` between the `-[ ]` like this `- [x]` for any user story you complete. (☝️ Remove this paragraph after after checking off user stories)
+<img src="https://i.imgur.com/ZObl4Xt.gif" width=200> <img src="https://i.imgur.com/t6XzvrM.gif" width=200>
 
 ## Required
-- [ ] Create New Project in Xcode
-- [ ] Add a view for the front side of the flashcard to display the question
-- [ ] Add a view for the back side of the flashcard to display the answer
-- [ ] Build in logic to show the answer side when the card is tapped
-- [ ] Push code to GitHub
+- [x] User can open the creation screen
+- [x] User can cancel out of the creation screen
+- [x] User can enter a new question and answer in the creation screen to then show it on the flashcard
+- [x] Push code to GitHub
 ## Optional
-- [ ] Toggle the flashcard between the question side and the answer side
-- [ ] Style the question and answer side of the card to better distinguish between the two sides
-- [ ] Add selectable multiple choice answers beneath the card
+- [x] User gets an error if they try to create a new flashcard with no question or answer
+- [x] User can edit existing flashcard
+- [x] User can add multiple choice answers in the creation screen
+
+### App Description
+Study effectively with ThreeByFive, an app that will let you create flashcards from material of your choosing. Multiple choice options will test your knowledge as you study and indicate when you've answered correctly. Take your study material everywhere you go with ThreeByFive for iOS!
+
+### App Walk-though
+Tap on the flashcard to reveal the correct answer, tap again to display the question. Tapping on incorrect multiple choice options will remove those options. Tapping the correct answer will display the back side of the flashcard. Tapping anywhere on the background will reset the multiple choice questions so that you can keep studying!
+
+<img src="https://i.imgur.com/Q16ufiX.gif" width=200> <img src="https://i.imgur.com/vuFr97I.gif" width=200> <img src="https://i.imgur.com/UMc8yHU.gif" width=200>
+
+## Required
+- [x] Create New Project in Xcode
+- [x] Add a view for the front side of the flashcard to display the question
+- [x] Add a view for the back side of the flashcard to display the answer
+- [x] Build in logic to show the answer side when the card is tapped
+- [x] Push code to GitHub
+## Optional
+- [x] Toggle the flashcard between the question side and the answer side
+- [x] Style the question and answer side of the card to better distinguish between the two sides
+- [x] Add selectable multiple choice answers beneath the card
