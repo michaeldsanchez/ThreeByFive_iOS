@@ -7,7 +7,7 @@ Study effectively with ThreeByFive, an app that will let you create flashcards f
 ### App Walk-though
 Flashcards that you create using the `+` button are stored persistently on your device! Use the `Prev` and `Next` buttons to navigate through your collection. Pressing the `✏️` icon will allow you to edit your existing Flashcard, and the `❌` to delete it. Multiple choice questions will be randomized as you study! The correct answer button is matched based on the answer on the back of your Flashcard.
 
-<img src="https://i.imgur.com/QympZvl.gif" width=200><img src="https://i.imgur.com/zpw7AiP.gif" width=200>
+<img src="https://i.imgur.com/RoSZ06L.gif" width=200> <img src="https://i.imgur.com/QympZvl.gif" width=200> <img src="https://i.imgur.com/zpw7AiP.gif" width=200>
 
 ## Required
 - [x] User should see the app icon 
