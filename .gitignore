@@ -28,6 +28,10 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+## Codepath class files
+demo/
+given/
+
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
@@ -66,3 +70,4 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
+
