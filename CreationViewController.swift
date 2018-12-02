@@ -45,29 +45,33 @@ class CreationViewController: UIViewController {
         let optOneText = optOneTextField.text
         let optTwoText = optTwoTextField.text
         let optThreeText = optThreeTextField.text
+        // lastly, check if an existing Flashcard is being edited
+        let isExisting = (initialQuestion != nil) ? true: false
         
         // add alert window and 'Ok' option
         let alert = UIAlertController(title: "Missing Text", message: "You need both a question and an answer", preferredStyle: .alert)
         let optAlert = UIAlertController(title: "Missing Multiple Choice", message: "Insert options to proceed", preferredStyle: .alert)
+        
+        // add 'Ok' option to alert window
         let okAction = UIAlertAction(title: "Ok", style: .default)
         alert.addAction(okAction)
         optAlert.addAction(okAction)
         
-        // check valid text fields before updated flashcard
+        // check valid text fields before updating flashcard
         if (questionText == nil || answerText == nil || questionText!.isEmpty || answerText!.isEmpty) {
             present(alert, animated: true)
         }
         if (optOneText == nil || optTwoText == nil || optThreeText == nil ||
             optOneText!.isEmpty || optTwoText!.isEmpty || optThreeText!.isEmpty) {
             present(optAlert, animated:true)
-        }
-        else {
+        } else {
             flashcardsController.updateFlashcard(
                 question: questionText!,
                 answer: answerText!,
                 optOne: optOneText!,
                 optTwo: optTwoText!,
-                optThree: optThreeText!
+                optThree: optThreeText!,
+                isExisting: isExisting
             );
             dismiss(animated: true)
         }
